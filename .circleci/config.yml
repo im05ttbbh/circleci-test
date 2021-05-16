@@ -9,11 +9,10 @@ jobs:
       - checkout
       - run:
           name: Run test
-          command: 'ruby test_sum.rb'
+          command: "ruby test_sum.rb"
 
 workflows:
   version: 2
   workflows:
     jobs:
       - test
-version: 2
